@@ -4,13 +4,17 @@
 **Date :** 2024  
 **Objectif :** Analyser l'hypothèse "Les playlists contiennent plus d'albums uniques que d'artistes (forte dispersion album/artiste)"
 
+
 ---
+
 
 ## 🎯 Résumé Exécutif
 
 L'analyse statistique de 10 000 playlists confirme de manière très significative l'hypothèse de dispersion album/artiste. **87,2% des playlists contiennent effectivement plus d'albums uniques que d'artistes**, avec un ratio moyen de 1,319 albums par artiste.
 
+
 ---
+
 
 ## 📈 Méthodologie
 
@@ -30,7 +34,9 @@ L'analyse statistique de 10 000 playlists confirme de manière très significati
 - **Analyses descriptives** complètes
 - **Segmentation par taille** de playlist
 
+
 ---
+
 
 ## 🔍 Résultats Principaux
 
@@ -41,6 +47,7 @@ L'analyse statistique de 10 000 playlists confirme de manière très significati
 | **Moyenne** | 48,71 | 38,24 |
 | **Médiane** | 37,00 | 30,00 |
 | **Écart-type** | 38,88 | 30,24 |
+
 
 ### 2. Test de l'Hypothèse
 
@@ -62,6 +69,7 @@ Les playlists montrent une dispersion album/artiste **constante** quelle que soi
 | Grande (51-100 tracks) | > 1,0 |
 | Très grande (>100 tracks) | > 1,0 |
 
+
 ---
 
 ## 💡 Interprétations Métier
@@ -77,6 +85,7 @@ Les playlists montrent une dispersion album/artiste **constante** quelle que soi
 3. **Interface utilisateur** : Faciliter la navigation entre albums d'un même artiste
 
 ---
+
 
 ## 📊 Exemples Concrets
 
@@ -99,6 +108,59 @@ Les playlists montrent une dispersion album/artiste **constante** quelle que soi
 
 ---
 
+## 📈 Visualisations Dashboard Grand Public
+
+### Objectif Communication
+Afin de rendre les résultats accessibles au grand public et aux décideurs, **4 visualisations spécialisées** ont été créées pour un dashboard de communication. Ces graphiques privilégient la **clarté du message** et l'**impact visuel**.
+
+### 1. Message Principal : Graphique en Secteurs 
+**Fichier :** `dashboard_1_message_principal.png`
+
+- **Format :** Diagramme circulaire avec mise en relief
+- **Message clé :** "🎵 Les playlists Spotify privilégient la DIVERSITÉ des ALBUMS"
+- **Chiffre percutant :** **87%** des playlists confirmées au centre
+- **Public cible :** Grand public, médias, direction
+- **Impact :** Compréhension immédiate du phénomène
+
+### 2. Comparaison Directe : Barres Horizontales
+**Fichier :** `dashboard_2_comparaison_moyennes.png`
+
+- **Format :** Barres horizontales colorées avec annotations
+- **Données :** Moyennes albums vs artistes (48,7 vs 38,2)
+- **Insight :** "+10,5 albums de plus en moyenne !"
+- **Message :** "En moyenne, chaque playlist contient plus d'albums que d'artistes"
+- **Utilité :** Présentation en réunion, justification quantitative
+
+### 3. Analyse Comportementale : Tendance par Taille
+**Fichier :** `dashboard_3_tendance_taille.png`
+
+- **Format :** Graphique en barres avec gradient de couleurs
+- **Segmentation :** Courtes, Moyennes, Longues, Très longues playlists
+- **Découverte :** Ratio constant >1 quelque soit la taille
+- **Message :** "Plus la playlist est longue, plus la diversité d'albums augmente"
+- **Public :** Équipes produit, UX designers
+
+### 4. Infographie de Synthèse : Dashboard Exécutif
+**Fichier :** `dashboard_4_infographie_synthese.png`
+
+- **Format :** Quadrant avec métriques clés et insight métier
+- **Données :**
+  - **87%** de validation de l'hypothèse
+  - **1,32** albums par artiste en moyenne  
+  - **+10,5** albums de différence
+  - **💡 Insight :** "Les utilisateurs préfèrent EXPLORER EN PROFONDEUR"
+- **Usage :** Présentation direction, communication externe
+
+### Impact Communication
+Ces visualisations transforment des **analyses statistiques complexes** en **messages simples et mémorisables** :
+
+✅ **Accessibilité** : Compréhension sans expertise technique  
+✅ **Mémorisation** : Messages visuels marquants  
+✅ **Actionnable** : Insights métier directement exploitables  
+✅ **Polyvalence** : Adaptées à différents publics et contextes  
+
+---
+
 ## 🎵 Conclusion Générale
 
 L'hypothèse de **forte dispersion album/artiste** est **CONFIRMÉE** avec une très haute significance statistique. Cette tendance révèle un comportement d'écoute sophistiqué où les utilisateurs privilégient :
@@ -113,10 +175,19 @@ Cette analyse suggère que les playlists Spotify reflètent une démarche de dé
 
 ## 📁 Fichiers Générés
 
+### Scripts et Données
 1. **`album_unique_artistes.py`** : Script d'analyse complet
 2. **`analyse_dispersion_resultats.csv`** : Données détaillées par playlist
-3. **`analyse_dispersion_album_artiste.png`** : Visualisations graphiques
-4. **`RAPPORT_DISPERSION_ALBUMS_ARTISTES.md`** : Ce rapport de synthèse
+3. **`RAPPORT_DISPERSION_ALBUMS_ARTISTES.md`** : Ce rapport de synthèse
+
+### Visualisations Techniques
+4. **`analyse_dispersion_album_artiste.png`** : Visualisations techniques complètes (6 graphiques)
+
+### Visualisations Dashboard Grand Public
+5. **`dashboard_1_message_principal.png`** : Graphique en secteurs avec message percutant
+6. **`dashboard_2_comparaison_moyennes.png`** : Comparaison barres horizontales
+7. **`dashboard_3_tendance_taille.png`** : Analyse comportementale par taille
+8. **`dashboard_4_infographie_synthese.png`** : Infographie exécutive complète
 
 ---
 

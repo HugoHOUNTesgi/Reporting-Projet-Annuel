@@ -1,5 +1,3 @@
-# 1_nettoyage.py
-
 # Membres du groupe :
 # Hugo HOUNTONDJI
 # LO Maty
@@ -22,8 +20,7 @@ import os
 import glob
 import json
 
-print("--- Début du script de nettoyage (1_nettoyage.py) ---")
-print("Étape 1: Importation des bibliothèques terminée.")
+print("Nous débutons par l'importation des bibliothèques")
 
 #################################################################################################
 

@@ -1,5 +1,3 @@
-# 2_analyse_exploratoire.py
-
 # Membres du groupe :
 # Hugo HOUNTONDJI
 # LO Maty
