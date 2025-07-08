@@ -29,9 +29,7 @@ warnings.filterwarnings('ignore')
 plt.style.use('seaborn-v0_8')
 sns.set_palette("husl")
 
-print("--- Début du script d'analyse dispersion album/artiste (3_album_unique_artistes.py) ---")
-print("Importation des bibliothèques terminée.")
-
+print("Importation des bibliothèques")
 #################################################################################################
 
 # Chargement des données
